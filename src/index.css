@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+  }
+  .bg {
+  background-image: url("http://mdbootstrap.com/img/Photos/Others/images/91.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  }
+
+.advancedContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.advancedCam {
+  position: relative;
+}
+
+.advancedBox {
+  position: absolute;
+}
+
+button {
+  margin-bottom: 12px;
+}
